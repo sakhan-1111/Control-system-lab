@@ -1,0 +1,14 @@
+clc; clear all; close all;
+x=0:0.1:pi;
+y1=sin(x);
+y2=sin(2*x);
+y3=sin(3*x);
+y4=sin(4*x);
+plot(y1);
+hold on;
+plot(y2);
+hold on;
+plot(y3);
+hold on;
+plot(y4);
+hold off;
